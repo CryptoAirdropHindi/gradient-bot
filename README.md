@@ -1,13 +1,30 @@
-
-
-Start with Docker
-
+ install the repository: 
+```bash
+git clone https://github.com/CryptoAirdropHindi/gradient-bot.git
+```
+Change directory to gradient-bot
+```bash
+cd gradient-bot
+```
+Start with Node.js for single proxy usage 
+This is OPTIONAL if you want to test a single proxy and check its support for Gradient or not 
+ 
+Install Node.js LTS 
+v20.18.0 
+Linux: Ubuntu/Debian 
+To install requirements, run command: 
+```bash
+npm install
+```
 Prepare proxy IP (optional)
 
 Save the proxy address to `proxies.txt` a file in the format:
 
 > socks5://username:password@proxyhost:port
-
+```bash
+nano proxies.txt
+```
+ctrl+x+y enter Save the proxy
 Then start the container:
 
 ```bash
